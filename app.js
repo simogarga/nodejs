@@ -26,5 +26,5 @@ apiServer.get("/somma",function(req, res){
 });
 
 apiServer.get("/", function(req, res){
-    res.send("sei in home");
+    res.send("<h1> CRI CULO</h1>");
 });
